@@ -28,3 +28,4 @@ ADD https://raw.githubusercontent.com/pypa/pip/5d927de5cdc7c05b1afbdd78ae0d1b127
 RUN python3.4 /root/get-pip.py
 RUN pip3.4 install -U "setuptools==18.4"
 RUN pip3.4 install -U "pip==7.1.2"
+RUN pip3.4 install psycopg2
